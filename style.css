@@ -50,6 +50,30 @@ header .divi ul{
     font-size: 1.5rem;
 }
 
+header .idioma ul{
+    color:#ffffff;
+    text-align: center;
+    width: 160px;
+    font-size: 0.75rem;
+    list-style: none;
+    margin-top: 3px;
+    
+}
+
+header .idioma ul li{
+    margin-top: 3px;    
+}
+
+header .idioma ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header .idioma ul li a:hover{
+    color: #d6ec10;
+    cursor: pointer;
+}
+
 header .menu ul{
     display: flex;
 }
@@ -123,6 +147,7 @@ header .menu ul li a:hover {
     letter-spacing: 5px;
     margin-top: 220px;
     margin-left: 30px;
+    text-shadow: #151244;
 }
 
 #home .container .title h2{
@@ -131,6 +156,7 @@ header .menu ul li a:hover {
     letter-spacing: 5px;
     font-size: 0.9rem;
     margin-left: 30px;
+    text-align: center;
 }
 
 #home .container .title h3{
@@ -174,6 +200,7 @@ header .menu ul li a:hover {
     align-items: flex-start;
     justify-content: center;
     padding: 0 60px;
+    margin-left: 50px;
 }
 
 #sobre .container .title h1{
@@ -197,7 +224,7 @@ header .menu ul li a:hover {
 #sobre .container .box-title{
     width: 420px;
     height:37vh;
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 0 10px;
     box-shadow: 0 0 10px 0 rgba(21,111,195,0.5);
     border-radius: 20px;
@@ -205,28 +232,82 @@ header .menu ul li a:hover {
 
 #sobre .container .box-title span{
     color: #ffffff;
+    font-size: 0.7rem;
+}
+
+#sobre .container .box-title p{
+    font-size: 0.7rem;
+    margin-top: 10px;
 }
 
 #sobre .container .box-title .b1{
     width: 400px;
-    height: 8px;
+    height: 6px;
     background: #ffffff;
-    margin-top: 2px;
+    margin-top: 1px;
     border-radius: 5px;
 }
 
 #sobre .container .box-title .b2{
     width: 400px;
-    height:8px;
+    height:6px;
     background: #156fc3;
     border-radius: 5px;
 }
 
 #sobre .container .box-title .b3{
     width: 400px;
-    height:8px;
+    height:6px;
     background: #156fc3;
     border-radius: 5px;
+}
+
+#sobre .container .box-title .b4{
+    width: 400px;
+    height:6px;
+    background: #156fc3;
+    border-radius: 5px;
+}
+
+#sobre .container .box-title .b5{
+    width: 400px;
+    height:6px;
+    background: #156fc3;
+    border-radius: 5px;
+}
+
+#sobre .container .box{
+    width: 170px;
+    height: 140px;
+    margin-top: 420px;
+    box-shadow: 0 0 10px 0 rgb(255, 255, 255);
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+#sobre .container .curriculo{
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+#sobre .container .curriculo a{    
+    text-decoration: none;
+    color: #ffffff;    
+    font-size: 0.8rem;
+}
+
+#sobre .container .curriculo a span{
+    position: relative;
+    font-size: 16px;
+    left: 8px;
+    top: 4px;    
+}
+
+#sobre .container .curriculo a:hover{
+    color: #d6ec10;
+    transition: 0.4s ease;
 }
 
 /*===== portfolio =====*/
@@ -574,7 +655,17 @@ footer a{
     }
 
     #sobre .container .box-title{
-        height:27vh;
+        height:33vh;
+    }
+
+    #sobre .container .box-title span{
+        color: #ffffff;
+        font-size: 0.6rem;
+    }
+    
+    #sobre .container .box-title p{
+        font-size: 0.6rem;
+        margin-top: 7px;
     }
 
     #port .container .card h1{
@@ -703,9 +794,10 @@ footer a{
     }
 
     #sobre .container .title{
-        align-items: center;
+        align-items: left;
         flex-direction: column;
         justify-items: center;
+        margin-left: 15px;
     }
 
     #sobre .container .title h1{
@@ -715,13 +807,84 @@ footer a{
 
     #sobre .container .title p{
         width: auto;
-        font-size: 0.75rem;
+        font-size: 0.7rem;
+    }
+
+    #sobre .container .box-title{
+        width: 270px;
+        height:31vh;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+
+    #sobre .container .box-title .b1{
+        width: 250px;
+        height: 4px;
+    }
+
+    #sobre .container .box-title .b2{
+        width: 250px;
+        height: 4px;
+    }
+
+    #sobre .container .box-title .b3{
+        width: 250px;
+        height: 4px;
+    }
+
+    #sobre .container .box-title .b4{
+        width: 250px;
+        height: 4px;
+    }
+
+    #sobre .container .box-title .b5{
+        width: 250px;
+        height: 4px;
     }
 
     #sobre .container .box-title span{
-        font-size: 0.8rem;
+        color: #ffffff;
+        font-size: 0.6rem;
+    }
+    
+    #sobre .container .box-title p{
+        font-size: 0.6rem;
+        margin-top: 5px;
     }
 
+    #sobre .container .box{
+        width: 90px;
+        height: 140px;
+        margin-top: 420px;
+        box-shadow: 0 0 10px 0 rgb(255, 255, 255);
+        
+        border-radius: 20px;
+    }
+    
+    #sobre .container .curriculo{
+        color: #ffffff;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+
+    #sobre .container .curriculo p{
+        font-size: 0.5rem;
+    }
+    
+    #sobre .container .curriculo a{    
+        text-decoration: none;
+        color: #ffffff;    
+        font-size: 0.6rem;
+        left: 2px;
+    }
+    
+    #sobre .container .curriculo a span{
+        position: relative;
+        font-size: 10px;
+        left: 3px;
+        top: 2px;    
+    }
 
     
     #port .container .card h1{
