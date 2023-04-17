@@ -166,6 +166,7 @@ header .menu ul li a:hover {
     letter-spacing: 5px;
     margin-top: 30px;
     margin-left: 35px;
+    text-align: center;
 }
 
 #home .container .imagem img{
@@ -475,14 +476,16 @@ header .menu ul li a:hover {
     font-size: 2rem;
     text-transform: uppercase;    
     color: rgb(209, 245, 48);
+    text-align: center;
 }
 
 #cont .content-contact .contact-right .linha{
-    width: 405px;
+    width: 483px;
     height: 3px;
     background: rgb(209, 245, 48);
     margin-top: 5px;
     margin-bottom: 17.5px;
+    
 }
 
 
