@@ -1138,7 +1138,7 @@ footer a{
 
     #cont .content-contact .contact-left h1{
         font-size: 1rem;
-        margin-top: 15px;
+        margin-top: 25px;
     }
 
     #cont .content-contact .contact-left .linha{
@@ -1149,11 +1149,12 @@ footer a{
 
     #cont .content-contact .contact-left ion-icon{
         font-size: 0.8rem;
-        margin-bottom: 2px;
+        margin-top: 2px;
     }
 
     #cont .content-contact .contact-left span{
         font-size: 0.7rem;
+        margin-bottom: 2px;
     }
 
     #cont .content-contact .contact-right{
