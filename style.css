@@ -1138,18 +1138,18 @@ footer a{
 
     #cont .content-contact .contact-left h1{
         font-size: 1rem;
-        margin-top: 10px;
+        margin-top: 15px;
     }
 
     #cont .content-contact .contact-left .linha{
         width: 175px;
-        margin-top: 2.5px;
+        margin-top: 1px;
         margin-bottom: 4.5px;
     }
 
     #cont .content-contact .contact-left ion-icon{
         font-size: 0.8rem;
-        margin-bottom: 2.5px;
+        margin-bottom: 2px;
     }
 
     #cont .content-contact .contact-left span{
@@ -1171,7 +1171,7 @@ footer a{
     #cont .content-contact .contact-right .linha{
         position: absolute;
         width: 210px;
-        margin-top: 22px;
+        margin-top: 25px;
     }
 
     #cont .content-contact .contact-right input[type=text]{
