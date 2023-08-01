@@ -1096,7 +1096,7 @@ footer a{
     #home .container .title h1{
         font-size: 1.5rem;
         letter-spacing: 1px;
-        margin-top: 150px; 
+        margin-top: 170px; 
         text-align: center;
     }    
   
@@ -1117,7 +1117,7 @@ footer a{
         width: 300px;
         height: 100vh;
         position: absolute;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     #sobre .container .title h1{
@@ -1138,6 +1138,7 @@ footer a{
 
     #cont .content-contact .contact-left h1{
         font-size: 1rem;
+        margin-top: 10px;
     }
 
     #cont .content-contact .contact-left .linha{
