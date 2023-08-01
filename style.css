@@ -795,6 +795,7 @@ footer a{
     header .menu-mobile ul li{
         list-style: none;
         padding: 12px 0;
+        margin-bottom: 5px;
     }
 
     header .menu-mobile ul li a{
