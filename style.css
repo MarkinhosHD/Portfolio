@@ -1143,12 +1143,13 @@ footer a{
 
     #cont .content-contact .contact-left .linha{
         width: 175px;
-        margin-top: 4px;
-        margin-bottom: 6.5px;
+        margin-top: 2.5px;
+        margin-bottom: 4.5px;
     }
 
     #cont .content-contact .contact-left ion-icon{
         font-size: 0.8rem;
+        margin-bottom: 3px;
     }
 
     #cont .content-contact .contact-left span{
