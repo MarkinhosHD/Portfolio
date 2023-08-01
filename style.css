@@ -1096,7 +1096,7 @@ footer a{
     #home .container .title h1{
         font-size: 1.5rem;
         letter-spacing: 1px;
-        margin-top: 230px; 
+        margin-top: 130px; 
         text-align: center;
     }    
   
@@ -1121,6 +1121,13 @@ footer a{
 
     #sobre .container .title h1{
         font-size: 0.8rem;
+        margin-top: 100px;
+    }
+
+    #sobre .container .title p{
+        -webkit-line-clamp: 7;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
     }
 
     #port .container .card h1{
