@@ -1136,6 +1136,24 @@ footer a{
         text-shadow: #000000;
     }
 
+    #cont .content-contact .contact-left h1{
+        font-size: 1rem;
+    }
+
+    #cont .content-contact .contact-left .linha{
+        width: 175px;
+        margin-top: 4px;
+        margin-bottom: 6.5px;
+    }
+
+    #cont .content-contact .contact-left ion-icon{
+        font-size: 0.8rem;
+    }
+
+    #cont .content-contact .contact-left span{
+        font-size: 0.7rem;
+    }
+
     #cont .content-contact .contact-right{
         align-items: center;
         padding: 0px;
