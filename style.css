@@ -644,7 +644,7 @@ footer a{
 @media screen and (max-width: 1280px){
 
     header .divi ul{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     header .menu-mobile ul{
@@ -819,6 +819,11 @@ footer a{
         margin-left: 10px;
         font-size: 0.9rem;
     }
+
+    header .di{
+        width: 450px;
+    }
+    
 
     #home .container{
         background: url(image/creative_20.png);    
