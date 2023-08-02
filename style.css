@@ -97,6 +97,10 @@ header .menu ul li a:hover {
     color: #d6ec10;
 }
 
+header .di{
+    width: 950px;
+}
+
 
 
 /*===== Main Home =====*/
@@ -1079,17 +1083,6 @@ footer a{
         font-size: 1rem;
     }
 
-    header .logo-agradecimento img{
-        width: 71px;
-        margin: 5px;
-        margin-left: 7px;
-    }
-
-    header .logo-agradecimento .divi-agradecimento ul{
-        padding-top: 25px;
-        padding-bottom: 35px;
-    }
-
     #home .container .icons ion-icon{
         font-size: 0.90rem;        
     }
@@ -1140,7 +1133,7 @@ footer a{
     }
 
     #port .container .card #song-3 p{
-        text-shadow: #000000;
+        text-shadow: 0 0 15px #000000;
     }
 
     #cont .content-contact .contact-left h1{
@@ -1209,4 +1202,5 @@ footer a{
     #agradecimento .container .icons ion-icon{
         font-size: 0.90rem;        
     }
+
 }
