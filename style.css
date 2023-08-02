@@ -1185,4 +1185,16 @@ footer a{
     #cont .content-contact .contact-right textarea{
         width:207px;
     }
+
+    #agradecimento .container .title h1{
+        font-size: 1.3rem;
+    }
+
+    #agradecimento .container .title h2{
+        font-size: 1rem;
+    }
+
+    #agradecimento .container .box p{
+        font-size: 0.7rem;
+    }
 }
