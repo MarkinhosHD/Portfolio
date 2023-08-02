@@ -1071,12 +1071,7 @@ footer a{
 }
 
 @media screen and (max-width: 500px){
-
-    header .logo img{
-        width: 71px;
-        margin: 5px;
-    }
-    
+ 
     header .divi ul{
         margin-top: 18px;
         margin-left: 7px;
@@ -1084,7 +1079,13 @@ footer a{
         font-size: 1rem;
     }
 
-    header .logo .divi ul{
+    header .logo-agradecimento img{
+        width: 71px;
+        margin: 5px;
+        margin-left: 7px;
+    }
+
+    header .logo-agradecimento .divi-agradecimento ul{
         padding-top: 25px;
         padding-bottom: 35px;
     }
@@ -1116,7 +1117,7 @@ footer a{
         margin-left: 268px;
         position: absolute;
         width: 80px;
-        height: 120px;
+        height: 130px;
     }
 
     #sobre .container .title{
