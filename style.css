@@ -1080,16 +1080,35 @@ footer a{
 }
 
 @media screen and (max-width: 500px){
+    header .logo {
+        width: 45%;
+    }
  
     header .divi ul{
         margin-top: 18px;
         margin-left: 7px;
         font-weight: bold;
-        font-size: 1rem;
+        font-size: 0.7rem;
+        padding-right: 5px;
+    }
+
+    header .idioma ul{
+        width: 120px;
+        font-size: 0.55rem;    
+        padding-left: 5px;
+    }
+
+    header .btn-mobile{
+        font-size: 0.6rem;
+        align-items: start;
+    }
+
+    #home .container .icons{
+        padding-left: 18px;
     }
 
     #home .container .icons ion-icon{
-        font-size: 0.90rem;        
+        font-size: 0.80rem;        
     }
 
     #home .container .title{
@@ -1098,31 +1117,83 @@ footer a{
     }
 
     #home .container .title h1{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         letter-spacing: 1px;
         margin-top: 170px; 
         text-align: center;
     }    
   
     #home .container .imagem img{
-        width:300px;    
-        margin-top: 45px;
+        width:270px;    
+        margin-top: 25px;
         margin-bottom: 0px;
     }
 
     #sobre .container .box{
-        margin-top: 220px;
-        margin-left: 268px;
+        margin-top: 185px;
+        margin-left: 203px;
         position: absolute;
-        width: 80px;
+        width: 65px;
         height: 130px;
     }
 
     #sobre .container .title{
-        width: 300px;
+        width: 240px;
         height: 100vh;
         position: absolute;
         margin-top: 20px;
+        justify-content: left;
+        padding-left: 35px;
+    }
+
+    #sobre .container .box-title{
+        width: 225px;
+        height:32vh;
+        margin-top: 15px;
+        padding: 0 10px;
+        box-shadow: 0 0 10px 0 rgba(21,111,195,0.5);
+        border-radius: 20px;
+    }
+    
+    #sobre .container .box-title span{
+        color: #ffffff;
+        font-size: 0.5rem;
+    }
+    
+    #sobre .container .box-title .b1{
+        width: 205px;
+        height: 6px;
+        background: #ffffff;
+        margin-top: 1px;
+        border-radius: 5px;
+    }
+    
+    #sobre .container .box-title .b2{
+        width: 205px;
+        height:6px;
+        background: #156fc3;
+        border-radius: 5px;
+    }
+    
+    #sobre .container .box-title .b3{
+        width: 205px;
+        height:6px;
+        background: #156fc3;
+        border-radius: 5px;
+    }
+    
+    #sobre .container .box-title .b4{
+        width: 205px;
+        height:6px;
+        background: #156fc3;
+        border-radius: 5px;
+    }
+    
+    #sobre .container .box-title .b5{
+        width: 205px;
+        height:6px;
+        background: #156fc3;
+        border-radius: 5px;
     }
 
     #sobre .container .title h1{
@@ -1133,25 +1204,38 @@ footer a{
         font-size: 0.5rem;
     }
 
-
-
     #port .container .card h1{
-        font-size: 1.7rem;
+        font-size: 1.4rem;
+        margin-top: 20px;
+    }
+
+    #port .container .card p{
+        font-size: 0.65rem;
+        width: auto;
+        margin-top: 120px;
+        text-align: center;
     }
 
     #port .container .card #song-3 p{
         text-shadow: 0 0 15px #000000;
     }
 
+    #cont .content-contact .contact-left{
+        align-items: center;
+        text-align: center;
+    }
+
     #cont .content-contact .contact-left h1{
         font-size: 1rem;
         margin-top: 25px;
+        
     }
 
     #cont .content-contact .contact-left .linha{
-        width: 175px;
+        width: 135px;
         margin-top: 1px;
         margin-bottom: 4.5px;
+        
     }
 
     #cont .content-contact .contact-left ion-icon{
@@ -1162,6 +1246,7 @@ footer a{
     #cont .content-contact .contact-left span{
         font-size: 0.7rem;
         margin-bottom: 2px;
+        
     }
 
     #cont .content-contact .contact-right{
@@ -1170,7 +1255,7 @@ footer a{
     }
 
     #cont .content-contact .contact-right h1{
-        font-size: 1rem;
+        font-size: 0.85rem;
         width: 210px;
         position: absolute;
         margin-top: 5px;
@@ -1178,7 +1263,7 @@ footer a{
     
     #cont .content-contact .contact-right .linha{
         position: absolute;
-        width: 210px;
+        width: 190px;
         margin-top: 25px;
     }
 
@@ -1189,7 +1274,7 @@ footer a{
     #cont .content-contact .contact-right input[type=email],
     #cont .content-contact .contact-right input[type=text],
     #cont .content-contact .contact-right textarea{
-        width:207px;
+        width:185px;
     }
 
     #agradecimento .container .title h1{
