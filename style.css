@@ -1316,7 +1316,7 @@ footer a{
 
 /* ------------------------ Motorola G5s --------------------------- */ 
 
-@media screen and (max-width: 360px) and (max-height:595px){
+@media screen and (max-width: 360px) and (max-height:495px){
     header .logo {
         width: 30%;
     }
@@ -1451,11 +1451,13 @@ footer a{
     }
 
     #sobre .container .title h1{
-        font-size: 0.7rem;        
+        font-size: 0.7rem;   
+        margin-top: 62px;     
     }
 
     #sobre .container .title p{
         font-size: 0.5rem;
+        margin-top: 10px; 
     }
 
     #port .container .card h1{
