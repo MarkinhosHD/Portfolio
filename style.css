@@ -218,7 +218,8 @@ header .di{
     text-transform: uppercase;
     font-size: 1.30rem;
     text-align: left;
-    margin-top: 130px;
+    margin-top: 90px;
+    text-shadow: #000000 4px 4px 6px;
 }
 
 #sobre .container .title p{
@@ -232,26 +233,31 @@ header .di{
 
 
 #sobre .container .box-title{
-    width: 420px;
-    height:37vh;
+    width: 410px;
+    height:39vh;
     margin-top: 15px;
+    margin-left: 4%;
     padding: 0 10px;
-    box-shadow: 0 0 10px 0 rgba(21,111,195,0.5);
-    border-radius: 20px;
+    box-shadow: 0 0 15px 0 rgba(30, 128, 219, 0.726);
+    border-radius: 7px;
+    overflow-y: auto;
 }
 
 #sobre .container .box-title span{
     color: #ffffff;
     font-size: 0.7rem;
+    width: 350px;
+    margin-bottom: 10px;
 }
 
 #sobre .container .box-title p{
     font-size: 0.7rem;
-    margin-top: 10px;
+    margin-top: 6px;
+    width: 350px;
 }
 
 #sobre .container .box-title .b1{
-    width: 400px;
+    width: 350px;
     height: 6px;
     background: #ffffff;
     margin-top: 1px;
@@ -259,44 +265,70 @@ header .di{
 }
 
 #sobre .container .box-title .b2{
-    width: 400px;
+    width: 350px;
     height:6px;
     background: #156fc3;
     border-radius: 5px;
 }
 
 #sobre .container .box-title .b3{
-    width: 400px;
+    width: 350px;
     height:6px;
     background: #156fc3;
     border-radius: 5px;
 }
 
 #sobre .container .box-title .b4{
-    width: 400px;
+    width: 350px;
     height:6px;
     background: #156fc3;
     border-radius: 5px;
 }
 
 #sobre .container .box-title .b5{
-    width: 400px;
+    width: 350px;
     height:6px;
     background: #156fc3;
     border-radius: 5px;
 }
 
+#sobre .container .box-title .b6{
+    width: 35px;
+    height:6px;
+    background: #156fc3;
+    border-radius: 5px;
+}
+
+/* ==================== SCROLLBAR --> BOX-TITLE ===================*/
+
+#sobre .container .box-title::-webkit-scrollbar {
+    width: 8px;               /* width of the entire scrollbar */    
+  }
+  
+  #sobre .container .box-title::-webkit-scrollbar-track {
+    background: rgba(97, 150, 199, 0.521);        /* color of the tracking area */
+    border-radius: 20px;
+  }
+  
+  #sobre .container .box-title::-webkit-scrollbar-thumb {
+    background-color: rgb(14, 14, 59);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 1px solid rgba(3, 4, 82, 0.63);  /* creates padding around scroll thumb */
+  }
+
+/* ================================================================*/
+
 #sobre .container .box{
     width: 170px;
     height: 140px;
     margin-top: 420px;
-    box-shadow: 0 0 10px 0 rgb(255, 255, 255);
+    box-shadow: 0 0 10px 0 rgb(253, 237, 11);
     margin-right: 30px;
     border-radius: 20px;
 }
 
 #sobre .container .curriculo{
-    color: #ffffff;
+    color: #d6ec10;
     text-align: center;
     text-transform: uppercase;
     margin-top: 20px;
@@ -367,7 +399,7 @@ header .di{
     position: absolute;
     z-index: 9;
     color: #ffffff;
-    font-size: 6rem;
+    font-size: 4.5rem;
     margin-top: 60px;
 }
 
@@ -378,6 +410,7 @@ header .di{
     color: #ffffff;
     margin-top: 200px;
     text-align: justify;
+    text-shadow: #000000 1px 1px 4px;
 }
 
 #port .container .card button{
@@ -393,34 +426,65 @@ header .di{
     cursor: pointer;
 }
 
+#port .container .card button:hover{
+    box-shadow: 0px 0px 9px rgba(255, 255, 255, 0.8);
+    background: rgba(21, 111, 195, 0.849);
+}
+
 #port .container .cards{
     position: relative;
     width: 100%;
     height:100%;
 }
 
-#item-1:checked ~ .cards #song-3,
+#item-1:checked ~ .cards #song-5,
 #item-2:checked ~ .cards #song-1,
-#item-3:checked ~ .cards #song-2{
-    transform: translateX(-40%) scale(0.8);
-    opacity: 0.4;
+#item-3:checked ~ .cards #song-2,
+#item-4:checked ~ .cards #song-3,
+#item-5:checked ~ .cards #song-4{
+    transform: translateX(-40%) scale(0.6);
+    opacity: 0.3;
+    z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-4,
+#item-2:checked ~ .cards #song-5,
+#item-3:checked ~ .cards #song-1,
+#item-4:checked ~ .cards #song-2,
+#item-5:checked ~ .cards #song-3{
+    transform: translateX(-25%) scale(0.8);
+    opacity: 0.7;
+    z-index: 1;
+}
+
+#item-1:checked ~ .cards #song-3,
+#item-2:checked ~ .cards #song-4,
+#item-3:checked ~ .cards #song-5,
+#item-4:checked ~ .cards #song-1,
+#item-5:checked ~ .cards #song-2{
+    transform: translateX(40%) scale(0.6);
+    opacity: 0.3;
     z-index: 0;
 }
 
 #item-1:checked ~ .cards #song-2,
 #item-2:checked ~ .cards #song-3,
-#item-3:checked ~ .cards #song-1{
-    transform: translateX(40%) scale(0.8);
-    opacity: 0.4;
-    z-index: 0;
+#item-3:checked ~ .cards #song-4,
+#item-4:checked ~ .cards #song-5,
+#item-5:checked ~ .cards #song-1{
+    transform: translateX(25%) scale(0.8);
+    opacity: 0.7;
+    z-index: 1;
 }
 
 #item-1:checked ~ .cards #song-1,
 #item-2:checked ~ .cards #song-2,
-#item-3:checked ~ .cards #song-3{
+#item-3:checked ~ .cards #song-3,
+#item-4:checked ~ .cards #song-4,
+#item-5:checked ~ .cards #song-5{
     transform: translateX(0) scale(1);
     opacity: 1;
-    z-index: 1;
+    z-index: 2;
 }
 
 /*===== contato =====*/
@@ -438,7 +502,7 @@ header .di{
     width:80%;
     height: 60vh;
     margin: 0 auto;
-    padding: 200px 0;
+    padding: 10% 0;
     display:flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -533,6 +597,11 @@ header .di{
     cursor: pointer;
 }
 
+#cont .content-contact .contact-right button:hover{
+    box-shadow: 0px 0px 9px rgba(255, 255, 255, 0.8);
+    background: rgba(21, 111, 195, 0.849);
+}
+
 /*===== footer =====*/
 
 footer{
@@ -551,6 +620,7 @@ footer a{
     color: rgb(209, 245, 48);
 }
 
+/*===== AGRADECIMENTO =====*/
 
 #agradecimento .container{
     width: 100%;
@@ -575,7 +645,8 @@ footer a{
     color: #ffffff;
     font-size: 1.8rem;
     margin-left: 30px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 #agradecimento .container h2{
@@ -593,7 +664,7 @@ footer a{
 
 #agradecimento .container .box{
     width: 420px;
-    height: 20vh;
+    height: 22vh;
     padding: 0 10px;
     box-shadow: 0 0 10px 0 rgba(249, 252, 255, 0.918);
     border-radius: 20px;
@@ -615,6 +686,11 @@ footer a{
     text-transform: uppercase;    
     cursor: pointer;
 }
+
+#agradecimento .container .title button:hover{
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+}
+
 #agradecimento .container .icons{
     width: 10%;
     height: 90vh;
@@ -869,7 +945,7 @@ footer a{
     }
 
     #sobre .container .box-title{
-        width: 270px;
+        width: 280px;
         height:31vh;
         margin-top: 5px;
         margin-right: 10px;
@@ -914,13 +990,12 @@ footer a{
         width: 90px;
         height: 140px;
         margin-top: 420px;
-        box-shadow: 0 0 10px 0 rgb(255, 255, 255);
-        
+        box-shadow: 0 0 10px 0 rgb(253, 237, 11);        
         border-radius: 20px;
     }
     
     #sobre .container .curriculo{
-        color: #ffffff;
+        color: #d6ec10;
         text-align: center;
         text-transform: uppercase;
         margin-top: 20px;
@@ -946,7 +1021,7 @@ footer a{
 
     
     #port .container .card h1{
-        font-size: 2.3rem;
+        font-size: 1.6rem;
         margin-top: 30px;
     }
     
@@ -1055,14 +1130,22 @@ footer a{
         margin-bottom: 20px;
         text-align: center;
     }
+
+    #cont .content-contact .contact-left span {
+        margin-bottom: 2px;
+    }
     
     #agradecimento .container h3{
-        font-size: 1.1rem;
+        font-size: 0.9rem;
         margin-bottom: 30px;
     }
     
     #agradecimento .container .box{
         width: auto;
+    }
+
+    #agradecimento .container .box p{
+        font-size: 0.9rem;
     }
     
     
@@ -1304,8 +1387,8 @@ footer a{
     }
 
     #agradecimento .container .box p{
-        font-size: 0.7rem;
-        margin-top: 10px;
+        font-size: 0.6rem;
+        margin-top: 9px;
     }
 
     #agradecimento .container .icons ion-icon{
@@ -1541,7 +1624,7 @@ footer a{
     }
 
     #agradecimento .container .box p{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         margin-top: 10px;
     }
 
@@ -1778,7 +1861,7 @@ footer a{
     }
 
     #agradecimento .container .box p{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         margin-top: 10px;
     }
 
@@ -2015,7 +2098,7 @@ footer a{
     }
 
     #agradecimento .container .box p{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         margin-top: 10px;
     }
 
